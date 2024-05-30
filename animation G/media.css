@@ -1,0 +1,15 @@
+@media (width < 1000px) {
+    .page1 .container {
+        grid-template-columns: 1fr;
+        & .content {
+            font-size: 1rem;
+            & img{
+            height: 80px;
+        }
+            
+            
+        }
+        
+    }
+
+}
